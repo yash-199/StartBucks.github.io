@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="image/Starbucks_Corporation_Logo_2011.svg.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Startbucks Coffee Company</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <a href="index.html">
+                    <img src="image/Starbucks_Corporation_Logo_2011.svg.png" alt="startbuck">
+                </a>
+            </div>
+
+            <ul class="navbar-nav-left">
+                <li>
+                    <a href="#">Menu</a>
+                </li>
+                <li>
+                    <a href="#">Rewards</a>
+                </li>
+                <li>
+                    <a href="#">Gift cards</a>
+                </li>
+            </ul>
+            
+            <ul class="navbar-nav-right">
+                <li>
+                    <a href="#">
+                        <img src="image/download.png" >
+                        <span>Find a store</span>
+                    </a>
+                </li>
+                <li><button class="btn btn-dark-outline">Sign in</button></li>
+                <li><button class="btn btn-dark">Join now</button></li>
+            </ul>
+
+            <!--Hamburger Menu-->
+            <button type="button" class="hamburger" id="menu-btn">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+    </nav>
+<hr>
+<!--Mobile Menu-->
+<div class="mobile-menu hidden" id="menu">
+    <ul>
+      <li>
+        <a href="#">Menu</a>
+      </li>
+      <li>
+        <a href="#">Rewards</a>
+      </li>
+      <li>
+        <a href="#">Gift Cards</a>
+      </li>
+    </ul>
+
+    <div class="mobile-menu-bottom">
+      <button class="btn btn-dark-outline">Sign in</button>
+      <button class="btn btn-dark">Join now</button>
+      <div>
+        <a href="#">
+          <img src="image/download.png" alt="" />
+          <span>Find a store</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+<!-- Box A 
+<section class="box box-a bg-primary text-center py-md">
+    <div class="box-inner">
+      <h2 class="text-xl">Win a thousand Stars</h2>
+      <p class="text-md">
+        We’re giving away 1,000 Stars to 1,000 Starbucks® Rewards members in our Million Stars Giveaway and much more all week!*
+        <a href="#">Play to win</a>
+      </p>
+    </div>
+  </section>
+-->
+  <!--Box B-->
+  <Section class="box box-b bg-secondary grid-col-2">
+    <img src="image/win.jpg">
+    <div class="box-text">
+        <h2 class="text-xl" style="color:#454141">Win a thousand Stars</h2>
+        <p class="text-md" style="color:#454141">
+            We’re giving away 1,000 Stars to 1,000 Starbucks® Rewards members in our Million Stars Giveaway and much more all week!*</p>
+            <a href="#" class="btn btn-light-outline">Play to win</a>
+    </div>
+  </Section>
+
+  <!--Box C-->
+  <section class="box box-c bg-secondary grid-col-2 grid-reversed">
+    <img src="image/box2.jpg">
+    <div class="box-text">
+        <h2 class="text-xl" style="color:#454141; font-size:20px;margin-right:20px">A new way to earn sips and trips</h2>
+        <p class="text-md" style="color:#454141;font-size:15px;margin-right:20px">Now you can link your Starbucks® Rewards + Delta SkyMiles® accounts to get:</p>
+        <ul style="margin-right:20px;text-align:justify;text-justify: inter-word;">
+            <li style="color:#454141">150 Stars + 500 miles when you link before 12/31</li><br>
+            <li style="color:#454141">Double Stars on Delta travel days</li><br>
+            <li style="color:#454141">1 mile per $1 spent at Starbucks (excludes taxes and gratuities)**</li><br>
+        </ul>
+        <a href="#" class="btn btn-light-outline">Link Account</a>
+    </div>
+  </section>
+
+  <!--Box 3-->
+  <section class="box box-d bg-primary grid-col-2">
+    <img src="image/box3.jpg">
+    <div class="box-text">
+        <h2 class="text-xl">Perfectly pumpkin</h2>
+        <p class="text-md">
+            Savor the season with a Pumpkin Spice Latte or Pumpkin Cream Cold Brew.
+        </p>
+        <a href="#" class="btn btn-light-outline">Order Now</a>
+    </div>
+  </section>
+
+  <!--Box 4-->
+  <Section class="box box-e bg-primary grid-col-2 grid-reversed">
+    <img src="image/box4.jpg">
+    <div class="box-text">
+        <h2 class="text-md">Layers of baked apple yum</h2>
+        <p class="text-sm">
+            Try the Apple Crisp Oatmilk Macchiato, now nondairy and with Starbucks® Blonde Espresso.
+        </p>
+        <a href="#" class="btn btn-light-outline">Order Now</a>
+    </div>
+  </Section>
+
+<!--NOTIFICATION-->
+<section class="notification">
+    <p class="notice-text">
+        *NO PURCHASE NECESSARY. Participating stores only. Ends 10/23/22. To enter and for Official 
+        <br>Rules,<a href="starbucksstardays.com.">visit starbucksstardays.com.</a>
+    </p>
+    <br>
+    <p class="notice-text2">
+        Entrants can receive a maximum of 2 entries per day.
+    </p>
+    <br>
+    <br>
+    <p class="notice-text3">
+        **Excludes taxes and gratuities. At participating stores. Some restrictions apply. 150 Stars 
+        <br>
+        deposited after first qualifying Starbucks purchase. Flights purchased close to departure may not 
+        <br>
+        earn double Stars. Stars may not be earned on purchases of alcohol, Starbucks Cards and Starbucks
+        <br>
+         Card reloads. For details, visit <a href="deltastarbucks.com/terms">deltastarbucks.com/terms</a>
+    </p>
+</section>
+<br>
+<br>
+<div class="divider"></div>
+
+<footer class="footer">
+    <div class="footer-link">
+        <div class="links-container">
+            <h3>About Us</h3>
+            <ul>
+              <li>Our Heritage</li>
+              <li>Our Coffee</li>
+              <li>Stories and News</li>
+              <li>Investor Relations</li>
+              <li>Policies and Standards</li>
+              <li>Customer Service</li>
+            </ul>
+          </div>
+          
+          
+     <div class="links-container">
+            <h3>Careers</h3>
+            <ul>
+              <li>Culture and Values</li>
+              <li>Inclusion , Diversity and Equity </li>
+              <li>College Achievement Plan </li>
+              <li>U.S. Careers</li>
+              <li>International Careers</li>
+              
+            </ul>
+          </div>
+          
+          
+     <div class="links-container">
+            <h3>Social Impact</h3>
+            <ul>
+              <li>Ethical Sourcing</li>
+              <li>Leading in Sustainability </li>
+              <li>Strengthening Communities</li>
+              <li>Creating Opportunities</li>
+              <li>Global Social Impact Report</li>
+              <li>Customer Service</li>
+            </ul>
+          </div>
+          
+     <div class="links-container">
+            <h3>For Business Partners</h3>
+            <ul>
+              <li>Landlord Support Center</li>
+              <li>Suppliers</li>
+              <li>Corporate Gift Card Sales </li>
+              <li>Office and Foodservice Coffee</li>
+              
+            </ul>
+          </div>
+          
+          
+     <div class="links-container">
+            <h3>Order and  Pickup</h3>
+            <ul>
+              <li>Order on the App</li>
+              <li>Order on the Web</li>
+              <li>Delivery</li>
+              <li>Order and Pickup Options</li>
+              <li>Explore and Find Coffee for Home</li>
+              
+            </ul>
+          </div>
+    </div>
+
+    <!--Mobile Menu-->
+    <div class="Accordions">
+        <button class="accordion">About Us</button>
+        <div class="accordion-content">
+            <ul>
+                <li>Our Heritage</li>
+                <li>Our Coffee</li>
+                <li>Stories and News</li>
+                <li>Investor Relations</li>
+                <li>Policies and Standards</li>
+                <li>Customer Service</li>
+            </ul>
+        </div>
+      
+        <button class="accordion">Careers</button>
+        <div class="accordion-content">
+            <ul>
+                <li>Culture and Values</li>
+                <li>Inclusion , Diversity and Equity </li>
+                <li>College Achievement Plan </li>
+                <li>U.S. Careers</li>
+                <li>International Careers</li>
+                
+            </ul>
+        </div>
+      
+        <button class="accordion">Social Impact</button>
+        <div class="accordion-content">
+            <ul>
+                <li>Ethical Sourcing</li>
+                <li>Leading in Sustainability </li>
+                <li>Strengthening Communities</li>
+                <li>Creating Opportunities</li>
+                <li>Global Social Impact Report</li>
+                <li>Customer Service</li>
+              </ul>
+        </div>
+
+        <button class="accordion">For Business Partners</button>
+        <div class="accordion-content">
+            <ul>
+                <li>Landlord Support Center</li>
+                <li>Suppliers</li>
+                <li>Corporate Gift Card Sales </li>
+                <li>Office and Foodservice Coffee</li>
+            </ul>
+        </div>
+
+        <button class="accordion">Order and  Pickup</button>
+        <div class="accordion-content">
+            <ul>
+                <li>Order on the App</li>
+                <li>Order on the Web</li>
+                <li>Delivery</li>
+                <li>Order and Pickup Options</li>
+                <li>Explore and Find Coffee for Home</li>
+                
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-container">
+        <div class="social">
+            <a href="https://spotify.com">
+                <img src="image/spotify.png">
+            </a>
+            <a href="https://spotify.com">
+                <img src="image/facebook.jpg">
+            </a>
+            <a href="https://spotify.com">
+                <img src="image/pinterest.png">
+            </a>
+            <a href="https://spotify.com">
+                <img src="image/instagram.jpg">
+            </a>
+            <a href="https://spotify.com">
+                <img src="image/youtube.png">
+            </a>
+            <a href="https://spotify.com">
+                <img src="image/twitter.png">
+            </a>
+        </div>
+
+        <div class="policy">
+            <a class="po1" href="#">Privacy Policy</a>
+            <p class="po">|</p>
+            <a class="po1" href="#">Terms of Use</a>
+            <p class="po">|</p>
+            <a class="po1" href="#">CA Supply Chain Act </a>
+            <p class="po">|</p>
+            <a class="po1" href="#">Submit Your Idea </a>
+        </div>
+        <div class="final">
+            <p>© 2021 Starbucks-clone Coffee Company. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+
+</html>
